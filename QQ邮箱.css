@@ -1,0 +1,133 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	margin: 0px auto;
+}
+
+#top {
+	width: 100%;
+	height: 65px;
+	border: gainsboro 1px solid;
+	background-color: #EFF4FA;
+}
+
+#top>img {
+	margin: 15px;
+	margin-left: 40px;
+}
+
+#top>ul {
+	float: right;
+	margin: 27px;
+}
+
+#top li {
+	float: left;
+	font-size: 11px;
+	color: #1D5494;
+	margin-right: 4px;
+}
+
+#center {
+	width: 100%;
+	height: 640px;
+	border: gainsboro 1px solid;
+}
+#center_last{
+	width: 1070px;
+	height: 640px;
+	margin: 0px auto;
+	/*border: yellow 1px solid;*/
+}
+#center_last_lost{
+	float: left;
+	width: 300px;
+	height: 500px;
+/*border: red 1px solid;*/
+}
+#center_last_lost,#center1,#center2{
+	margin-top: 100px;
+}
+
+#center>ul {
+	margin-top: 110px;
+	margin-left: 290px;
+	height: 500px;
+	border: red 1px solid;
+}
+
+#center span {
+	color: #6F95C8;
+	font-size: 26px;
+}
+
+#center li {
+	margin-top: 2px;
+}
+
+#center1 {
+	float: left;
+	width: 381px;
+	height: 392px;
+	
+	
+	background-image: url(../img/tg-chang1ea8a2.png);
+}
+
+#center2 {
+	width: 381px;
+	height: 392px;
+	border: gainsboro 1px solid;
+	float: left;
+	/*background-image: url(../img/2019-02-28_200207.png);
+}*/
+}
+#center2 input{
+	width: 320px;
+	height: 40px;
+	margin-left: 30px;
+}
+#center3{
+	width: 381px;
+	height: 80px;
+	border-bottom: gainsboro 1px solid;
+}
+#center3 ul{
+	float: left;
+}
+#center3 li{
+	float: left;
+	height: 80px;
+	line-height: 80px;
+	font-size: 20px;
+	width: 190px;
+	text-align: center;
+	
+}
+
+#bottom{
+	width: 100%;
+	height: 25px;
+	background-color: #EFF4FA;
+
+}
+#bottom_div ul{
+	float: left;
+	margin-top: 5px;
+	width: 630px;
+	/*border: red 1px solid;*/
+
+}
+#bottom_div li{
+	float: left;
+	font-size: 12px;
+
+}
+#bottom_div{
+	width: 630px;
+	height: 25px;
+	margin: 0 auto;
+	
+}
